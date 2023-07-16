@@ -1,0 +1,88 @@
+.navBar {
+  align-items: center;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  display: flex;
+  font: 500 1.3vmax "Poppins";
+  height: auto;
+  justify-content: space-between;
+  left: 0;
+  padding: 25px 40px 25px 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+}
+.navBar > h3 {
+  font: 700 1.3rem "Poppins";
+}
+.navBar ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.navBar ul > a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.navBar ul > a:hover {
+  transition: 0.5s;
+  color: rgb(36, 122, 235);
+}
+.navBar button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  display: none;
+  /* visibility: hidden;
+  opacity: 0; */
+}
+.navBar svg {
+  font-size: 3.5vmax;
+}
+.navBar svg:hover {
+  color: rgb(36, 122, 235);
+}
+
+@media only screen and (max-width: 900px) {
+  .navBar {
+    width: 100vw;
+  }
+  .navBar button {
+    display: inline;
+  }
+  .links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font: 500 3vmax "Poppins";
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    gap: 1.5rem;
+    transition: 0.3s;
+    transform: translateX(-100%);
+  }
+  .links ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .links > button {
+    position: absolute;
+    right: 4.5vmax;
+    top: 3vmax;
+  }
+  .navBar svg {
+    font-size: 4vmax;
+  }
+  .responsive_nav {
+    transform: none;
+  }
+}
