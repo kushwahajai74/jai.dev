@@ -65,7 +65,7 @@
   width: 3rem;
 }
 .hero-img {
-  background: url("/src/Images/profile.jpg");
+  background: url("/Images/profile.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;

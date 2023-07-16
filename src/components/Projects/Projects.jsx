@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="projects-grid">
           <ProjectCard
             title="shopEkart 🛒"
-            mockup="src/Images/shopekartMochup.png"
+            mockup="/Images/shopekartMochup.png"
             live="https://shopekart.onrender.com/"
             desc="An ecommerce platform, with a focus on simplicity and clean design,
           this store prioritize user experience, making it easy for customers to
@@ -23,7 +23,7 @@ const Projects = () => {
           />
           <ProjectCardReverse
             title="BingeFlix 🍿"
-            mockup="src/Images/book-my-show.png"
+            mockup="/Images/book-my-show.png"
             live="https://shopekart.onrender.com/"
             desc="An ecommerce platform, with a focus on simplicity and clean design,
           this store prioritize user experience, making it easy for customers to
@@ -32,7 +32,7 @@ const Projects = () => {
           />
           <ProjectCard
             title="Zomato clone 🍴"
-            mockup="src/Images/zomato.png"
+            mockup="/Images/zomato.png"
             live="https://shopekart.onrender.com/"
             desc="An ecommerce platform, with a focus on simplicity and clean design,
           this store prioritize user experience, making it easy for customers to
