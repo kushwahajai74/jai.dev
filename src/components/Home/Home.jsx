@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import hand from "../../Images/hand.png";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
           <div className="hero-main">
             <div className="hero-text">
               <h1>Full-Stack Web Developer </h1>
-              <img src="src/Images/hand.png" alt="waving_hand" />
+              <img src="../src/Images/hand.png" alt="waving_hand" />
 
               <p>
                 Hi, I{"'"}m Jai Kushwaha. A passionate Full-stack Developer
@@ -32,8 +33,8 @@ const Home = () => {
             <p>Tech stack</p>
             <div className="logos">
               <ul>
-                <img src="src/Images/html5.svg" alt="" title="HTML5" />
-                <img src="src/Images/css.svg" alt="CSS3" title="CSS3" />
+                <img src="../src/Images/html5.svg" alt="" title="HTML5" />
+                <img src="../src/Images/css.svg" alt="CSS3" title="CSS3" />
                 <img
                   src="src/Images/javascript.svg"
                   alt="javascript"
