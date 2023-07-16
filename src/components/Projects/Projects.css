@@ -4,7 +4,7 @@
 }
 .container {
   margin: 0 auto;
-  max-width: 70rem;
+  max-width: 80%;
   padding: 0 4rem;
 }
 .project-content p {
@@ -33,5 +33,20 @@
 @media only screen and (max-width: 900px) {
   .container {
     max-width: 100%;
+    padding: 0 2vmax;
+  }
+  .project-content h3 {
+    font-size: 2.5vmax;
+  }
+  .project-content p {
+    font-size: 3vmax;
+  }
+  .project-content {
+    display: flex;
+    padding: 3vmax;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }
