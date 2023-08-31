@@ -15,7 +15,7 @@ const Projects = () => {
           <ProjectCard
             title="shopEkart 🛒"
             mockup="/Images/shopekartMochup.png"
-            live="https://shopekart.onrender.com/"
+            live="https://shopekart.up.railway.app/"
             desc="An ecommerce platform, with a focus on simplicity and clean design,
           this store prioritize user experience, making it easy for customers to
           find and purchase the products they need."
@@ -33,7 +33,7 @@ const Projects = () => {
           <ProjectCard
             title="Zomato clone 🍴"
             mockup="/Images/zomato.png"
-            live="https://shopekart.onrender.com/"
+            live="https://zomato-frontend.netlify.app/"
             desc="An ecommerce platform, with a focus on simplicity and clean design,
           this store prioritize user experience, making it easy for customers to
           find and purchase the products they need."

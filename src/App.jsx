@@ -3,6 +3,8 @@ import Header from "./components/layouts/Header";
 import Home from "./components/Home/Home.jsx";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects.jsx";
+import Footer from "./components/layouts/Footer";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
