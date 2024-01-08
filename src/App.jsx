@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects.jsx";
 import Footer from "./components/layouts/Footer";
 import Contact from "./components/Contact/Contact";
+import CustomCursor from "./components/CustomCursor/CustomCursor";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <CustomCursor />
     </>
   );
 }
