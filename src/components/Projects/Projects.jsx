@@ -22,7 +22,7 @@ const Projects = () => {
           <ProjectCardReverse
             title="shopEkart 🛒"
             mockup="/Images/shopekartMochup.png"
-            live="https://shopekart.up.railway.app/"
+            live="https://shopekart.onrender.com/"
             desc="An ecommerce platform, with a focus on simplicity and clean design,
           this store prioritize user experience, making it easy for customers to
           find and purchase the products they need."
